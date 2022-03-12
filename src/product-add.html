@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://kit.fontawesome.com/290dc399a6.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  
+
   <!-- Navbar -->
   <div class="navbar">
     <div class="fixed w-full h-[75px] px-[30px] bg-white shadow-md flex">
       <span class="flex-none w-[35px] h-auto my-auto border border-gray-400 rounded-md" onclick="openSidebar()">
-        <svg class="w-6 h-6 m-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>    
+        <svg class="w-6 h-6 m-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
       </span>
       <div class="flex-auto"></div>
       <div class="flex-none w-[40px] h-[40px] my-auto border border-gray-400 rounded-full">
@@ -28,50 +34,90 @@
 
   <!-- Sidebar -->
   <aside class="font-poppins">
-    <div class="flex flex-col justify-between overflow-y-auto fixed h-screen w-72 py-4 px-3 bg-gray-800 lg:left-0 -left-72 shadow-md" id="sidebar">
+    <div
+      class="flex flex-col justify-between overflow-y-auto fixed h-screen w-72 py-4 px-3 bg-gray-800 lg:left-0 -left-72 shadow-md"
+      id="sidebar">
       <div class="flex-none flex">
         <div class="flex-none h-25 w-[130px]">
           <img src="../assets/semicolon-logo.png" alt="">
         </div>
         <div class="flex-auto"></div>
         <span class="flex-none w-[35px] h-auto my-auto ml-[25px] lg:hidden" onclick="openSidebar()">
-          <svg class="w-6 h-6 m-auto text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>      
+          <svg class="w-6 h-6 m-auto text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
         </span>
       </div>
       <ul class="flex-none space-y-2 pt-4 my-4 border-t border-gray-700">
         <li>
-            <a href="dashboard.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              <span class="ml-3">Dashboard</span>
-            </a>
+          <a href="dashboard.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+              </path>
+            </svg>
+            <span class="ml-3">Dashboard</span>
+          </a>
         </li>
         <li>
-          <a href="category.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+          <a href="category.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+              </path>
+            </svg>
             <span class="ml-3">Kategori</span>
           </a>
         </li>
         <li>
-          <a href="product.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+          <a href="product.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+              </path>
+            </svg>
             <span class="ml-3">Produk</span>
           </a>
         </li>
         <li>
-          <a href="promo.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z"></path></svg>
+          <a href="promo.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z">
+              </path>
+            </svg>
             <span class="ml-3">Promosi</span>
           </a>
         </li>
         <li>
-          <a href="testimonial.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          <a href="testimonial.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+              </path>
+            </svg>
             <span class="ml-3">Testimonial</span>
           </a>
         </li>
         <li>
-          <a href="order.html" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+          <a href="order.html"
+            class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
             <span class="ml-3">Histori Penjualan</span>
           </a>
         </li>
@@ -80,13 +126,24 @@
       <ul class="space-y-2 pt-4 my-4 border-t border-gray-700">
         <li>
           <a href="#" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z">
+              </path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
             <span class="ml-3">Pengaturan</span>
           </a>
         </li>
         <li>
           <a href="#" class="flex items-center p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+            </svg>
             <span class="ml-3">Keluar</span>
           </a>
         </li>
@@ -99,50 +156,81 @@
     <div class="mx-[30px] text-gray-800 font-light">
       <a href="./product.html" class="text-lg font-bold hover:underline hover:underline-offset-1">Produk</a>
       >
-      <a href="./product-add.html" class="text-lg font-bold hover:underline hover:underline-offset-1">Buat Produk Baru</a>
+      <a href="./product-add.html" class="text-lg font-bold hover:underline hover:underline-offset-1">Buat Produk
+        Baru</a>
     </div>
   </div>
 
   <!-- Main Content -->
   <div class="flex flex-col h-screen justify-between font-poppins lg:ml-72">
-    <!-- Form -->
     <div class="h-auto m-[30px] bg-white rounded-md shadow-md overflow-hidden">
-      <!-- Form Header -->
-      <div class="h-auto bg-gray-800 shadow-sm p-4">
-        <h2 class="text-white font-bold">Buat produk baru</h2>
-      </div>
-      <!-- Form Body -->
-      <div class="h-auto p-4">
-        <form action="">
-          <div class="h-auto flex flex-col mb-3">
-            <label class="mb-1" for="email">ID Produk</label>
-            <input type="email" class="border rounded-md border-gray-500 p-1 pl-2 font-thin text-sm" placeholder="Masukkan id produk..">
+      <form action="/product/add" method="post">
+        <div class="h-auto bg-gray-800 shadow-sm p-4">
+          <h2 class="text-white font-bold">Buat produk baru</h2>
+        </div>
+
+        <div class="h-auto p-4 md:grid md:grid-cols-12 md:gap-2">
+          <div class="h-auto flex flex-col mb-3 md:col-span-4">
+            <label class="mb-1" for="productId">ID Produk</label>
+            <input type="text" name="productId" class="border rounded-md border-gray-500 p-1 pl-2 font-thin text-sm"
+              placeholder="Masukkan id produk..">
           </div>
-          <div class="h-auto flex flex-col mb-3">
-            <label class="mb-1" for="email">Nama Produk</label>
-            <input type="email" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" placeholder="Masukkan nama produk..">
+          <div class="h-auto flex flex-col mb-3 md:col-span-6">
+            <label class="mb-1" for="name">Nama Produk</label>
+            <input type="text" name="name" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm"
+              placeholder="Masukkan nama produk..">
           </div>
-          <div class="h-auto flex flex-col mb-3">
-            <label class="mb-1" for="email">Kategori Produk</label>
-            <input type="Kategori" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" placeholder="Masukkan kategori produk..">
+          <div class="h-auto flex flex-col mb-3 md:col-span-2">
+            <label class="mb-1" for="status">Status</label>
+            <select name="text" name="status" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" required>
+              <option value="true">Aktif</option>
+              <option value="false">Non Aktif</option>
+            </select>
           </div>
-          <div class="h-auto flex flex-col mb-3">
-            <label class="mb-1" for="email">Stok Produk</label>
-            <input type="Kategori" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" placeholder="Masukkan stok produk..">
+          <div class="h-auto flex flex-col mb-3 md:col-span-12">
+            <label class="mb-1" for="description">Deskripsi</label>
+            <textarea type="text" name="description" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm"
+              placeholder="Masukkan deskripsi produk.."></textarea>
           </div>
-          <div class="h-auto flex flex-col mb-3">
-            <label class="mb-1" for="email">Status Produk</label>
-            <input type="Kategori" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" placeholder="Masukkan status produk..">
+          <div class="h-auto flex flex-col mb-3 md:col-span-4">
+            <label class="mb-1" for="category">Kategori Produk</label>
+            <select name="text" name="category" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm" required>
+              <option value="6220ec05c7358f78107dcb59">Makanan</option>
+              <option value="622a0ce77c568fc9b1b506fd">Minuman</option>
+            </select>
           </div>
-        </form>
-      </div>
-      <!-- Form Footer -->
-      <div class="h-auto bg-gray-200 p-2 flex justify-end">
-        <button class="bg-gray-700 px-3 py-2 rounded-md hover:bg-gray-900 hover:shadow-md text-white transition text-sm"><a href="">Submit</a></button>
-      </div>
+          <div class="h-auto flex flex-col mb-3 md:col-span-4">
+            <label class="mb-1" for="stock">Stok Produk</label>
+            <div class="flex flex-row justify-between">
+              <span onclick="subtraction()" class="border-y border-l border-gray-400 rounded-l-md p-1">
+                <svg class="w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>             
+              </span>
+              <input id="stock" type="Kategori" name="stock" value="0" class="border border-gray-400 p-1 pl-2 font-thin text-sm text-center w-full">
+              <span onclick="addition()" class="border-y border-r border-gray-400 rounded-r-md p-1" >
+                <svg class="w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+              </span>
+            </div>
+          </div>
+          <div class="h-auto flex flex-col mb-3 md:col-span-4">
+            <label class="mb-1" for="email">Harga</label>
+            <input type="Kategori" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm"
+              placeholder="Masukkan harga produk..">
+          </div>
+          <div class="h-auto flex flex-col mb-3 md:col-span-12">
+            <label class="mb-1" for="email">Foto produk</label>
+            <input type="file" class="border rounded-md border-gray-400 p-1 pl-2 font-thin text-sm"
+              placeholder="Masukkan harga produk..">
+          </div>
+          
+        </div>
+
+        <div class="h-auto bg-gray-200 p-2 flex justify-end">
+          <button
+            class="bg-gray-700 px-3 py-2 rounded-md hover:bg-gray-900 hover:shadow-md text-white transition text-sm">Submit</button>
+        </div>
+      </form>
     </div>
 
-    <!-- Footer -->
     <div class="bg-gray-700 p-5 font-poppins">
       <p class="text-white m-auto text-center lg:text-left">TITIKOMA By Semicolon; Team</p>
     </div>
@@ -153,5 +241,18 @@
   function openSidebar() {
     document.querySelector('#sidebar').classList.toggle('-left-72')
   }
+
+  function addition() {
+    let number = document.getElementById('stock');
+    let newNumber = parseInt(number.value) + 1;
+    number.value = newNumber;
+  }
+
+  function subtraction() {
+    let number = document.getElementById('stock');
+    let newNumber = parseInt(number.value) - 1;
+    number.value = newNumber;
+  }
 </script>
+
 </html>
